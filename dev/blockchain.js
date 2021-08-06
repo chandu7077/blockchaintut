@@ -19,6 +19,7 @@ class Blockchain {
     
         this.pendingTransactions = [];
         this.chain.push(block);
+        return block;
     }
 
     getLatBlock() {

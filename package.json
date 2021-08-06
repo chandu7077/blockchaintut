@@ -5,7 +5,7 @@
   "main": "dev/blockchain.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon --exec babel-node dev/test.js"
+    "start": "nodemon --exec babel-node dev/api.js"
   },
   "keywords": [
     "blockhain",
@@ -15,8 +15,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.17.1",
     "nodemon": "^2.0.7",
-    "sha256": "^0.2.0"
+    "sha256": "^0.2.0",
+    "uuid": "^8.3.2"
   },
   "devDependencies": {
     "@babel/cli": "^7.13.14",
